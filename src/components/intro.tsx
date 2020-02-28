@@ -12,8 +12,8 @@ const Intro: React.FC = () => {
           <p className = {styles.profile}>Full Stack Web Developer</p>
           
               <p>Currently Working @ 
-                    <a className={styles.link} href = "https://www.redcarpetup.com/" target = "_blank" rel = "noopener noreferrer">
-                        RedCarpetUp Tech Pvt Ltd
+                    <a href = "https://www.finception.in/" target = "_blank" rel = "noopener noreferrer">
+                        Finception
                     </a>
                 </p>
               <br />

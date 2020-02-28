@@ -8,7 +8,7 @@ import Intro from './components/intro'
 
 const App: React.FC = () => {
     return (
-    <div className="container-fluid">
+    <div className="container-fluid bg-color">
         <div className={`${styles.App} row`}>
             <div className="col-12">
                 <header>

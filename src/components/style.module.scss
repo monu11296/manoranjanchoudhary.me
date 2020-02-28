@@ -11,17 +11,18 @@
          url('../assets/fonts/caveat-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../assets/fonts/caveat-v7-latin-regular.svg#Caveat') format('svg'); /* Legacy iOS */
   }
-  
 
 .name {
     font-size: 2.2em;
+    color: #ffffff;
 }
 
 .profile {
     font-size: 1.5em;
+    color: #ffffff;
 }
 
-.link {
+a:link {
     color: inherit; 
     text-decoration: none;
 }
@@ -34,4 +35,10 @@
 .love {
     font-size: 2em;
     font-family: 'Caveat', cursive;
+    color: #ffffff;
+}
+
+.footer {
+    margin-top: 4em;
+    text-align: center;
 }

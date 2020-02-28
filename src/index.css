@@ -1,1 +1,6 @@
 @import '~bootstrap-css-only/css/bootstrap.min.css';
+
+.bg-color {
+    height: 130vh;
+    background-color:#272727;
+}

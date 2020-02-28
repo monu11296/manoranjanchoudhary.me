@@ -18,7 +18,8 @@ const Love: React.FC = () => {
         'Redis',
         'APIs',
         'Postgres',
-        'SCSS'
+        'SCSS',
+        'React Native'
     ]
 
     const love = [
@@ -26,6 +27,7 @@ const Love: React.FC = () => {
         'Friends',
         'The Office',
         'Stranger Things',
+        'Silicon Valley',
         'Music',
         'Fifa',
         'Technology',
@@ -34,7 +36,8 @@ const Love: React.FC = () => {
         'AMD',
         'Overclocking',
         'Hardware Porn',
-        'Video Editing', 
+        'Video Editing',
+        'Delhi', 
         'PubG',
         'IAF'
     ]
