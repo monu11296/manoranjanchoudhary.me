@@ -22,9 +22,8 @@
     color: #ffffff;
 }
 
-a:link {
-    color: inherit; 
-    text-decoration: none;
+a {
+    text-decoration: none !important;
 }
 
 .heart {
@@ -35,6 +34,7 @@ a:link {
 .love {
     font-size: 2em;
     font-family: 'Caveat', cursive;
+    font-weight: 600;
     color: #ffffff;
 }
 
