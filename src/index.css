@@ -2,11 +2,12 @@
 
 .bg-color {
     background-color:#272727;
-    height: 105vh;
+    max-height: 100%;
+    height: 102vh;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 640px) {
     .bg-color {
-        height: 115vh;
+        height: 100%
     }
 }
