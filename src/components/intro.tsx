@@ -17,8 +17,6 @@ const Intro: React.FC = () => {
                     </a>
                 </p>
               <br />
-              <p>Graduated from Maharishi Dayanand University, Rohtak in 2018<br />with B.Tech in Computer Science.</p>
-              <br />
               <Love />
               <br />
               <Contact />

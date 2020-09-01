@@ -39,61 +39,60 @@ const Love: React.FC = () => {
         'Hardware Porn',
         'Video Editing',
         'Delhi',
-        'Bangalore', 
+        'Bangalore',
         'PubG',
         'IAF'
     ]
 
     function useInterval(callback: any, delay: any) {
-        const savedCallback = useRef(() => {})
+        const savedCallback = useRef(() => { })
 
         // To Remember the latest callback.
         useEffect(
-            () => {savedCallback.current = callback},
+            () => { savedCallback.current = callback },
             [callback],
         )
 
         // Set up the interval.
         useEffect(
             () => {
-            function tick() {
-                savedCallback.current()
-            }
-            if (delay !== null) {
-                let id = setInterval(tick, delay)
-                return () => clearInterval(id)
-            }
-            return
+                function tick() {
+                    savedCallback.current()
+                }
+                if (delay !== null) {
+                    let id = setInterval(tick, delay)
+                    return () => clearInterval(id)
+                }
+                return
             },
             [delay],
         )
     }
-    
+
     useInterval(() => {
         generate_random()
-    }, 1000)
+    }, 2000)
 
 
     const generate_random = async () => {
         displayLove = []
-        displayLove[0] = workStack[Math.floor(Math.random()*workStack.length)]
-        displayLove[1] = love[Math.floor(Math.random()*love.length)]
+        displayLove[0] = workStack[Math.floor(Math.random() * workStack.length)]
+        displayLove[1] = love[Math.floor(Math.random() * love.length)]
         setDisplayLove(displayLove)
     }
 
 
     return (
         <div>
-                <span>
-                    <p>I fiddle with</p>
-                    <p className={styles.love}>{displayLove[0] ? displayLove[0] : 'React'}</p>
-                    <p>& I do</p>
-                    <p className={styles.heart}>❤</p>
-                    <p className={styles.love}>{displayLove[1] ? displayLove[1] : 'Technology'}</p>
-                </span>
-            
+            <span>
+                <p>I play with</p>
+                <p className={styles.love}>{displayLove[0] ? displayLove[0] : 'React'}</p>
+                <p>& I do</p>
+                <p className={styles.heart}>❤</p>
+                <p className={styles.love}>{displayLove[1] ? displayLove[1] : 'Technology'}</p>
+            </span>
         </div>
     );
-  }
+}
 
 export default Love;
