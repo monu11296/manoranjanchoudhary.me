@@ -9,7 +9,7 @@ const Intro: React.FC = () => {
       <div>
         <div>
           <p className = {styles.name}>Manoranjan Choudhary here!</p>
-          <p className = {styles.profile}>Full Stack Web Developer</p>
+          <p className = {styles.profile}>Software Engineer</p>
           
               <p>Currently Working @ 
                     <a href = "https://www.finception.in/" target = "_blank" rel = "noopener noreferrer">
