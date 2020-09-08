@@ -71,7 +71,7 @@ const Love: React.FC = () => {
 
     useInterval(() => {
         generate_random()
-    }, 2000)
+    }, 1000)
 
 
     const generate_random = async () => {
