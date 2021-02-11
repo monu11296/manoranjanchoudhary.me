@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                                 manoranjan11296[at]gmail.com
                             </a>
                         </h4>
-                        <h4 style={{ fontSize: '1rem' }}>© 2020 manoranjanchoudhary.me</h4>
+                        <h4 style={{ fontSize: '1rem' }}>© 2020 manoranjanchoudhary.com</h4>
                     </div>
                 </div>
             </div>

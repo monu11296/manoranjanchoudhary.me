@@ -1,2 +1,2 @@
-# manoranjanchoudhary.me
+# manoranjanchoudhary.com
 My portfolio website
