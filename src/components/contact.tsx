@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
                     <div className="col-12">
                         <h4 style={{ fontSize: '0.7rem' }}>
                             email:&nbsp;
-                            <a href="mail@manoranjanchoudhary.com">
+                            <a href="mailto:mail@manoranjanchoudhary.com">
                                 mail@manoranjanchoudhary.com
                             </a>
                         </h4>
