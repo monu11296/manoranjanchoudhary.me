@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
                         </a>
                     </div>
                     <div className="col-lg-1 col-2">
-                        <a href="https://www.instagram.com/monu11296/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/manoranjan11296/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" color="#ffffff" />
                         </a>
                     </div>
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                                 mail@manoranjanchoudhary.com
                             </a>
                         </h4>
-                        <h4 style={{ fontSize: '1rem' }}>© 2020 manoranjanchoudhary.com</h4>
+                        <h4 style={{ fontSize: '1rem' }}>© 2022 manoranjanchoudhary.com</h4>
                     </div>
                 </div>
             </div>
